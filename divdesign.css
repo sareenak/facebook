@@ -1,0 +1,19 @@
+.root{
+    background-color: brown;
+    width: 900px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 170px;
+
+
+}
+.box{
+
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+    background-color: darkgray;
+    float: left;
+    margin-left: 90px;
+    padding: 20px;
+}
