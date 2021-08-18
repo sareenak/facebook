@@ -43,21 +43,74 @@
     </div>
     <div class="body">
       <div class="image">
-        <h1>sareena</h1>
+        <h2 class="heading-left">Facebook helps you connect and share with <br>the people in your life</h2>
+        <img  class="fbpicture" src="fb.jpg" alt="">
       </div>
       <div class="form">
           
-          <label>Name</label>
+          <h1 class="form-header">Create an account</h1>
+          <p class="form-header">it's quick and easy</p>
+          <form id="signup-form">
+          <input  name="fname" class="name" type="text" placeholder="Firstname">
+          <input  name="surename" class="name" type="text" placeholder="Surename">
           <br>
-          <input type="text">
-          </div>
+          <input name="emailAddress" class="name emailormobile" type="email" placeholder="Mobile number or email address">
+          <br>
+          <input  name="password"class="name password2" type="password" placeholder="New password">  
+          <br>
+          <p class="bd">Birthday</p>
           
+          <select name="Day" id="" class="age">Day
+              <option value="">Day</option>
+              <option value=1>1</option>
+              <option value=2>2</option>
+              <option value=3>3</option>
+              <option value=4>4</option>
+              <option value=5>5</option>
+          </select>
+          <select class="age"name="" id="">
+              <option>Month</option>
+              <option value="">January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+          </select>
+        </select>
+        <select class="age"name="" id="">
+            <option>Year</option>
+            <option value="">1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+        </select>
 
-          
-
-      </div>
+        <p class="bd">Gender</p>
+       
+        <input type="radio" name="gender">
+        <label class="bd">Male</label>
+        
+        <input type="radio" name="gender">
+        <label class="bd">Female</label>
+    
+        <input type="radio" name="gender">
+        <label class="bd">Custom</label>
+          <p class="belowradio">By clicking Sign Up,you agree to our Terms Data Policy<br>
+            and Cookie Policy,You may receive SMS notification from <br>
+        can opt out at any time.</p>
+        <input type="submit" class="signup2"value="Sign Up">
+        </form>
+        <hr class="hr">
+        <p class="belowsignup">Create Page for a celebrity,band or business
+        </div>
+           </div>
     </div>
     <div class="footer">
+    
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="facebook.js"></script>
 </body>
 </html>
